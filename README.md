@@ -14,5 +14,3 @@ Deploy badge coming soon
 4.) Skip until you see CMD options
 5.) Set as `gunicorn main:app`
 6.) Go through the rest of the setup
-
-
