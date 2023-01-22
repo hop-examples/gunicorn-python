@@ -1,16 +1,8 @@
-# How to Deploy
+# gunicorn-python
 
+[![Deploy Button](https://cdn.hop.io/assets/deploy-button/button.svg)](https://console.hop.io/deploy-button)
 
-### Prerequisite
-Create account on [Hop]("https://hop.io/")
+Python application strapped with gunicorn for Hop.
 
-### Deploy on the [Console]("https://console.hop.io/")
-Deploy badge coming soon
-
-### Deploy on [CLI]("https://github.com/hopinc/cli")
-1.) Install the CLI
-2.) Run `hop deploy` in the root directory of this project
-3.) Select the settings up until "Advanced Settings"
-4.) Skip until you see CMD options
-5.) Set as `gunicorn main:app`
-6.) Go through the rest of the setup
+### Note
+- When deploying you must provide a `CMD` of `gunicorn main:app`. However, this template provides you with such settings for quick deployment.
